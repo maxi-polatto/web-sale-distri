@@ -1,0 +1,190 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,100&family=Montserrat:wght@500;800&display=swap');
+
+
+h1{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:bold;
+    font-size: 40px; 
+}
+
+
+h3{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+.secidx{
+    background-image: url(../img/fondo2.png);
+}
+
+.contindex{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 200px 1fr 250px;
+    grid-template-rows: 50px 1fr 1fr 100px;
+    grid-template-areas: 
+    "head head head"
+    "nav main asi"
+    "nav main asi"
+    "nav foot foot"   
+    ;
+    background-image: url(../img/fondo2.png);
+}
+
+.head{
+    grid-area: head;
+    /* background-color: rgba(0, 255, 255, 0.501); */
+}
+.main{
+    grid-area: main;
+    /* background-color: rgba(137, 43, 226, 0.507); */
+}
+
+.asi{
+    grid-area: asi;
+    /* background-color: coral; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+    width: 100%;
+
+}
+.foot{
+    grid-area:foot ;
+    background-color: green;
+}
+.nav{
+    
+    grid-area: nav;
+    background-color: rgba(67, 11, 179, 0.174);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.selecidx{
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    justify-content: space-evenly;
+    
+}
+.icons{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+    height: 150px;
+    
+}
+.inst{
+
+    width: 35px;
+    height: 35px;
+   
+    
+}
+.wh{
+    width: 35px;
+    height: 35px;
+}
+.bu{
+    width: 35px;
+    height: 35px;
+}
+.inst img{
+    width: 100%;
+    height: 100%;
+}
+.wh img{
+    width: 100%;
+    height: 100%;
+}
+.bu img{
+    width: 100%;
+    height: 100%;
+} 
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    /* background-color: coral; */
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    
+    
+   
+}
+.logo img{
+    width: 70%;   
+    /* justify-content: center;  */
+}
+.foot{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+
+}
+.main{
+    display: flex;
+    align-items: flex-start;
+    justify-content: end;
+    text-align: end;
+    padding-right: 150px;
+    padding-top: 70px;
+}
+.sica{
+    border-radius: 10px;
+    box-shadow: 9px 12px 5px 0px rgba(0,0,0,0.31); 
+    height: 72px;
+    width: 200px;
+    background-image: url(../img/descarga\ \(2\)\ \(1\).png)
+
+
+
+}
+.jeluz{
+    border-radius: 10px;
+    box-shadow: 9px 12px 5px 0px rgba(0,0,0,0.31);
+    height: 72px;
+    width: 200px;
+    background-image: url(../img/2-JELKIT1P.jpg\ \(1\)\ \(1\).jpg)
+
+}
+
+.candela{
+    border-radius: 10px;
+    box-shadow: 9px 12px 5px 0px rgba(0,0,0,0.31);
+    height: 72px;
+    width: 200px;
+    background-image: url(../img/Logo-candela-200x200\ \(1\)\ \(1\).jpg)
+}
+.osnram{
+    border-radius: 10px;
+    box-shadow: 9px 12px 5px 0px rgba(0,0,0,0.31);
+    height: 72px;
+    width: 200px;
+    background-image: url(../img/descarga\ \(1\)\ \(1\).png)
+    
+}
